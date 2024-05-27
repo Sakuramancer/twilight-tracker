@@ -1,0 +1,29 @@
+.container {
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  bottom: 70px;
+  right: 5vw;
+  background-color: blueviolet;
+  opacity: 0.9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.svg {
+  margin: 13px;
+  opacity: 0.9;
+}
+
+.container:hover {
+  opacity: 1;
+}
+
+.container:hover .svg {
+  opacity: 1;
+}
