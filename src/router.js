@@ -3,6 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 import ErrorPage from "./pages/ErrorPage";
 import HomePage from "./pages/HomePage";
 import CardsPage from "./pages/CardsPage";
+import ColorsPage from "./pages/ColorsPage";
 
 export const router = createBrowserRouter([
   {
@@ -18,8 +19,8 @@ export const router = createBrowserRouter([
         element: <CardsPage />,
       },
       {
-        path: "new",
-        element: <ErrorPage />,
+        path: "colors",
+        element: <ColorsPage />,
       },
     ],
   },

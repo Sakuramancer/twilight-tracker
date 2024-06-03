@@ -11,6 +11,9 @@ const HomeMenu = () => {
           <span className={classes.italic}>Скоро!</span>
         </div>
         <div className={classes.button}>
+          <Link to="/colors">Выбор цветов</Link>
+        </div>
+        <div className={classes.button}>
           <Link to="/cards">Карты целей</Link>
         </div>
         <div className={classes.warning}>

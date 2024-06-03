@@ -1,0 +1,47 @@
+{
+  "_default": {
+    "id": "_default",
+    "color": "white",
+    "hoverColor": "whitesmoke"
+  },
+  "black": {
+    "id": "black",
+    "color": "hsl(0, 0%, 15%)",
+    "hoverColor": "hsl(0, 0%, 25%)"
+  },
+  "blue": {
+    "id": "blue",
+    "color": "hsl(210, 100%, 35%)",
+    "hoverColor": "hsl(210, 100%, 45%)"
+  },
+  "orange": {
+    "id": "orange",
+    "color": "hsl(24, 100%, 50%)",
+    "hoverColor": "hsl(24, 100%, 60%)"
+  },
+  "red": {
+    "id": "red",
+    "color": "hsl(0, 100%, 40%)",
+    "hoverColor": "hsl(0, 100%, 50%)"
+  },
+  "pink": {
+    "id": "pink",
+    "color": "hsl(323, 100%, 50%)",
+    "hoverColor": "hsl(323, 100%, 60%)"
+  },
+  "green": {
+    "id": "green",
+    "color": "hsl(150, 100%, 30%)",
+    "hoverColor": "hsl(150, 100%, 40%)"
+  },
+  "yellow": {
+    "id": "yellow",
+    "color": "hsl(33, 100%, 70%)",
+    "hoverColor": "hsl(33, 100%, 80%)"
+  },
+  "purple": {
+    "id": "purple",
+    "color": "hsl(300, 100%, 30%)",
+    "hoverColor": "hsl(300, 100%, 40%)"
+  }
+}

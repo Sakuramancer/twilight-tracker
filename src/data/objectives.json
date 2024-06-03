@@ -21,7 +21,7 @@
     },
     "description": {
       "src": "Have 4 or more structures.",
-      "value": "У вас должно быть хотя\u00A0бы 4\u00A0сооружения на\u00A0игровом поле."
+      "value": "У вас должно быть хотя\u00A0бы 4\u00A0сооружения."
     },
     "phase": "status",
     "stage": "stage1",
@@ -77,7 +77,7 @@
     },
     "description": {
       "src": "Own 2 technologies in each of 2 colors.",
-      "value": "У вас должно быть по\u00A02\u00A0технологии в\u00A02\u00A0разных цветах."
+      "value": "У вас должно быть 2\u00A0технологии в\u00A0каждом из\u00A02\u00A0разных цветов."
     },
     "phase": "status",
     "stage": "stage1",
@@ -105,7 +105,7 @@
     },
     "description": {
       "src": "Spend 8 resources.",
-      "value": "Потратьте 8\u00A0очков ресурса."
+      "value": "Потратьте 8\u00A0очков ресурсов."
     },
     "phase": "status",
     "stage": "stage1",
@@ -354,7 +354,7 @@
     },
     "description": {
       "src": "Have 7 or more structures.",
-      "value": "У вас должно быть хотя\u00A0бы 7\u00A0сооружений на\u00A0игровом поле."
+      "value": "У вас должно быть хотя\u00A0бы 7\u00A0сооружений."
     },
     "phase": "status",
     "stage": "stage2",
@@ -452,7 +452,7 @@
     },
     "description": {
       "src": "Own 2 technologies in each of 4 colors.",
-      "value": "У вас должно быть по\u00A02\u00A0технологии в\u00A04\u00A0разных цветах."
+      "value": "У вас должно быть 2\u00A0технологии в\u00A0каждом из\u00A04\u00A0разных цветов."
     },
     "phase": "status",
     "stage": "stage2",
@@ -522,7 +522,7 @@
     },
     "description": {
       "src": "Control 2 planets that are each in or adjacent to a different, other player's home system.",
-      "value": "Контролируйте 2\u00A0планеты, смежные с\u00A0разными родными системами других игроков или находящиеся в\u00A0таких родных системах."
+      "value": "Контролируйте 2\u00A0планеты, смежные с\u00A0разными родными системами других игроков или находящиеся в\u00A0таких системах."
     },
     "phase": "status",
     "stage": "stage2",
@@ -1026,7 +1026,7 @@
     },
     "description": {
       "src": "Have 9 or more ground forces on a planet that does not contain 1 of your space docks.",
-      "value": "У вас должно быть хотя\u00A0бы 9\u00A0отрядов наземных войск на\u00A0планете без\u00A0базы."
+      "value": "У вас должно быть хотя\u00A0бы 9\u00A0наземных войск на\u00A0планете без\u00A0вашей базы."
     },
     "phase": "status",
     "stage": "secret",
@@ -1040,7 +1040,7 @@
     },
     "description": {
       "src": "Control Mecatol Rex and have 3 or more ships in its system.",
-      "value": "Вы должны контролировать Мекатол-Рекс, и\u00A0у\u00A0вас должно быть хотя\u00A0бы 3\u00A0корабля в\u00A0его\u00A0системе."
+      "value": "Вы должны контролировать Мекатол-Рекс, и\u00A0у\u00A0вас должно быть 3\u00A0корабля в\u00A0его\u00A0системе или больше."
     },
     "phase": "status",
     "stage": "secret",
