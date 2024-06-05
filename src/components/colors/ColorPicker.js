@@ -19,11 +19,23 @@ const defPetals = [
 const ColorPicker = () => {
   const [petals, setPetals] = useState(defPetals);
   const [clicked, setClicked] = useState(-1);
+  const [removing, setRemoving] = useState(false);
 
   const petalClickHandler = (event) => {
     setClicked((value) => {
       const newValue = Number(event.target.id);
-      return value === newValue ? -1 : newValue;
+      if (value === -1) {
+        return newValue;
+      }
+      setTimeout(() => {
+        if (value !== newValue) {
+          setTimeout(() => setClicked(newValue), 1);
+        }
+        setRemoving(false);
+        setClicked(-1);
+      }, 100);
+      setRemoving(true);
+      return value;
     }, []);
     event.preventDefault();
   };
@@ -34,7 +46,14 @@ const ColorPicker = () => {
       newPetals[clicked] = { colorId: event.target.id };
       return newPetals;
     }, []);
-    setClicked(-1);
+    setClicked((value) => {
+      setTimeout(() => {
+        setRemoving(false);
+        setClicked(-1);
+      }, 100);
+      setRemoving(true);
+      return value;
+    });
     event.preventDefault();
   };
 
@@ -60,7 +79,9 @@ const ColorPicker = () => {
       })}
       {clicked !== -1 && (
         <ColorHexes
-          className={classes.clickable}
+          className={`${classes.clickable} ${
+            removing ? classes.exit : classes.enter
+          }`}
           step={clicked}
           center={center}
           onClick={colorPickHandler}

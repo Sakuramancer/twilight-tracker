@@ -1,7 +1,7 @@
 import HexPath from "./HexPath";
 import colors from "../../data/colors.json";
 
-const sqrt3 = Math.sqrt(3)
+const sqrt3 = Math.sqrt(3);
 const dataPoints = [
   {
     colorId: "black",
@@ -50,7 +50,7 @@ const ColorHexes = ({
   return (
     <>
       {dataPoints.map(({ shift, colorId }) => {
-        const [shiftX, shiftY] = [2 + coef * shift.x, coef * shift.y]
+        const [shiftX, shiftY] = [2 + coef * shift.x, coef * shift.y];
         const x = shiftX * Math.cos(alpha) - shiftY * Math.sin(alpha);
         const y = shiftX * Math.sin(alpha) + shiftY * Math.cos(alpha);
         const color = colors[colorId];
