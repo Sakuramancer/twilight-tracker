@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.27b452fe.css",
-    "main.js": "/static/js/main.a58c7288.js",
-    "static/media/spaceBackground.jpg": "/static/media/spaceBackground.2a397fed7e161ebab1cc.jpg",
+    "main.css": "/static/css/main.97dc8858.css",
+    "main.js": "/static/js/main.fab5bfc7.js",
+    "static/media/pexels-kaip-1341279.jpg": "/static/media/pexels-kaip-1341279.6d582c84c68f1ca3b47d.jpg",
     "static/media/hacan.png": "/static/media/hacan.f4f63c29f305cf9b90b6.png",
     "static/media/xxcha.png": "/static/media/xxcha.28898d85638e0e9dc033.png",
     "static/media/barony.png": "/static/media/barony.411e81566668ba9fad4e.png",
@@ -30,11 +30,11 @@
     "static/media/naalu.png": "/static/media/naalu.9c266a8f072689911e7e.png",
     "static/media/unknown.png": "/static/media/unknown.b3ded1f05a6fff3f4e15.png",
     "index.html": "/index.html",
-    "main.27b452fe.css.map": "/static/css/main.27b452fe.css.map",
-    "main.a58c7288.js.map": "/static/js/main.a58c7288.js.map"
+    "main.97dc8858.css.map": "/static/css/main.97dc8858.css.map",
+    "main.fab5bfc7.js.map": "/static/js/main.fab5bfc7.js.map"
   },
   "entrypoints": [
-    "static/css/main.27b452fe.css",
-    "static/js/main.a58c7288.js"
+    "static/css/main.97dc8858.css",
+    "static/js/main.fab5bfc7.js"
   ]
 }
